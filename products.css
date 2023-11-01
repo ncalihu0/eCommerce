@@ -18,9 +18,8 @@ section {
     justify-content: center;
     align-items: center;
     justify-items: center;
-    height: 60vh;
-    /* box-shadow: 12px 10px 0px 0px #423b3d; */
-    /* background: #423b3d; */
+    height: 50vh;
+    box-shadow: 20px 15px 0px 0px #423b3d;
 
 }
 
