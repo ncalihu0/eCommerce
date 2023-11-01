@@ -9,7 +9,9 @@ section {
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     justify-items: center;
     align-items: center;
-    grid-row-gap: 30px;
+    grid-row-gap: 40px;
+    margin: 5% 0 20%;
+    justify-content: center;
 
 }
 
@@ -18,8 +20,7 @@ section {
     justify-content: center;
     align-items: center;
     justify-items: center;
-    height: 50vh;
-    box-shadow: 20px 15px 0px 0px #423b3d;
+
 
 }
 
@@ -31,8 +32,8 @@ section {
 
 
 .product img {
-    height: 350px;
-    width: 270px;
+    height: 300px;
+    width: 200px;
 }
 
 .description {
@@ -51,4 +52,20 @@ h5 {
 
 .description h5 {
     width: 230px;
+}
+
+@media screen and (min-width: 600px) {
+    .container {
+        grid-row-gap: 100px;
+    }
+
+    .product {
+        height: 50vh;
+        box-shadow: 20px 15px 0px 0px #423b3d;
+    }
+
+    .product img {
+        height: 350px;
+        width: 270px;
+    }
 }

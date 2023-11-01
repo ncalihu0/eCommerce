@@ -1,6 +1,5 @@
 var userEmail = document.myForm.userEmail.value;
 function isEmail() {
-    // const email = document.getElementById("userEmail");
 
     const regexx = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
