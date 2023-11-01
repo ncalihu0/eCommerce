@@ -1,0 +1,60 @@
+main {
+    width: 100vw;
+    height: 100vh;
+}
+
+form {
+    display: flex;
+    width: 60vw;
+    flex-direction: column;
+    text-align: center;
+}
+
+form label {
+    font-size: 1.5rem;
+    background-color: #646162;
+    color: #cfd4d7;
+    font-family: pixelify sans;
+}
+
+form input {
+    text-align: center;
+    height: 5vh;
+    border: none;
+    font-size: 1rem;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    cursor: text;
+    font-family: pixelify sans;
+    margin: 0 0 20px;
+
+}
+
+form input:focus {
+    outline: none;
+}
+
+form input[type="submit"] {
+    background: #aeadad;
+    color: #423f40;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+form input[type="submit"]:hover {
+    opacity: 0.8;
+    color: white;
+}
+
+.content {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width: 1200px) {
+    form {
+        width: 40vw;
+    }
+}

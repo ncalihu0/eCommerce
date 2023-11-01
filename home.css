@@ -1,0 +1,48 @@
+main {
+    height: 100vh;
+}
+
+.carousel {
+    height: 80vh;
+}
+
+.carousel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+button {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    z-index: 10px;
+    background-color: #9d9094;
+    color: #cbc4c6;
+    font-size: 18px;
+    font-family: pixelify sans;
+    opacity: 0.7;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 0.4;
+}
+
+button:active {
+    transform: scale(1.1);
+}
+
+#prevButton {
+    top: 50%;
+    left: 2%;
+}
+
+#nextButton {
+    top: 50%;
+    right: 2%;
+}
