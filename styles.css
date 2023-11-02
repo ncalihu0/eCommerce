@@ -152,13 +152,31 @@ footer a {
 }
 
 .subbox h2 {
-    margin: 0;
+    margin: 0 0 10px;
     font-family: EB garamond;
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
 
 #email,
 .button {
     font-family: EB garamond;
+    border: none;
+    border-radius: 5px;
+}
+
+input[placeholder="Enter your email"] {
+    text-align: center;
+}
+
+.button:hover {
+    background: #453d3f;
+    color: #e6e2e3;
 }
 
 @media screen and (min-width: 600px) {
